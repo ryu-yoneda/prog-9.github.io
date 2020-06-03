@@ -1,0 +1,282 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #666666;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a :hover {
+    opacity: 0.7;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.clear::after {
+    content:"";
+    clear: both;
+    display: block;
+}
+
+
+.top {
+    background-image: url(../img/pc-4.jpeg);
+    background-size: cover;
+    padding: 245px 0;
+    opacity: 0.9;
+    border-radius: 1px;
+}
+
+.top-title {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 50px;
+    font-family: 'Philosopher',serif;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+}
+
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Philosopher',serif;
+    color: black;
+    
+}
+
+.about-left {
+    float: left;
+    width: 36%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.my-photo {
+    border-radius: 40px;
+}
+
+.about-right {
+    float: right;
+    width: 48%;
+}
+
+.about-right p {
+    margin: 70px 0;
+}
+
+.course {
+    background-color:#f8f9fa;
+}
+
+.course-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    width: 18%;
+}
+
+.item {
+    text-align: center;
+    font-family: 'Philosopher',serif;
+}
+
+.service-left {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.service-left p {
+    margin-bottom: 50px;
+}
+
+.service-right {
+    float: right;
+    width: 50%;
+}
+
+.service-title {
+    font-weight: bold;
+    
+
+}
+
+span{
+    border-bottom: 2px solid #666;
+}
+
+.contact {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+
+.contact-message {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.contact-subtitle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.twitter-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.twitter {
+    text-align: center;
+    
+}
+
+
+footer {
+    background-color: #082b48;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.copyright {
+    font-size: 12px;
+    float: right;
+}
+
+@media only screen and (max-width:767px){
+
+.clear::after {
+    content: none;
+}
+
+
+.header-left {
+    float: none;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-right {
+    float: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-item {
+    float: none;
+    margin: 0;
+}
+
+.top {
+    padding: 270px 0;
+}
+
+.top-title {
+    font-size: 20px;
+    color: black;
+    margin: 100px 0px 100px 0;
+    line-height: 1.8;
+}
+
+
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section p {
+    font-size: 14px;
+}
+
+.about-left {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-right {
+    float: none;
+    width: 100%;
+}
+
+.service-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.service-right {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+
+.course-wrapper {
+    flex-wrap: wrap;
+}
+
+.course-item {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+input[type="email"],input[type="text"] {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 10px;
+    float: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+}
